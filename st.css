@@ -1,0 +1,271 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+ background-color: #1d4b7a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto 25px;
+   
+}
+
+
+.header h1{
+
+   font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.header p{
+ color: #c5d9ed;
+    margin-bottom: 25px;
+
+}
+
+
+.header  nav{
+
+  
+      text-align: center;
+    margin-top: 20px;
+
+}
+
+
+nav a{
+
+  display: inline-block;
+    background-color:  #315c88;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+
+.about {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.about h2 {
+    color: #1d4b7a;
+    margin-bottom: 15px;
+}
+
+
+.About-me {
+    text-align: left;
+}
+
+.About-me img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.about-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 75%;
+}
+
+.about-text p {
+    color: #555555;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.about-text span {
+    color: #1d4b7a;
+}
+
+.about-text a {
+    display: inline-block;
+    background-color: #0877bd;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.skills {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.skills h2 {
+    color: #1d4b7a;
+    margin-bottom: 15px;
+}
+
+.skills-content {
+    overflow: auto;
+}
+
+.skill-card {
+    background-color: #f8fafc;
+    border: 1px solid #e1e8ef;
+    border-radius: 15px;
+    width: 22%;
+    height: 120px;
+    padding: 15px;
+    margin: 1%;
+    float: left;
+
+}
+
+.skill-card h3 {
+    color: #28618a;
+    font-size: 18px;
+}
+
+.skill-card p {
+    color: #444444;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.experience {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.experience h2 {
+    color: #1d4b7a;
+    margin-bottom: 15px;
+}
+
+
+.experience-card {
+    background-color: #f8fafc;
+    border: 1px solid #e1e8ef;
+    border-left: 4px solid #2878ad;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-info img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #e1e8ef;
+    border-radius: 12px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.experience-details {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.experience-details h3 {
+    color: #333333;
+    font-size: 16px;
+}
+
+.experience-details h4 {
+    color: #2878ad;
+    font-size: 14px;
+}
+
+.experience-details p {
+    color: #444444;
+    font-size: 13px;
+}
+
+.experience-description {
+    color: #444444;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.contact {
+    background-color: #1d4b7a;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.contact h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    background-color: #315e89;
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+    border: 1px solid #42678b;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+
+
+
+.ico {
+    background-color: #061b35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.ico p {
+    font-size: 13px;
+}
+
+.ico span {
+    color: #78b9e8;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;
+    margin: 20px 0;
+}
+
